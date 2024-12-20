@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { FormData } from '../types';
 
 const initialFormData: FormData = {
+  logo: '',
   companyInfo: {
     name: '',
     website: '',
@@ -49,7 +50,7 @@ const initialFormData: FormData = {
     facebook: { url: '', followers: '' },
     instagram: { url: '', followers: '' },
     linkedin: { url: '', followers: '' },
-    customPlatforms: [] // Initialize empty array for custom platforms
+    customPlatforms: [],
   },
 };
 
