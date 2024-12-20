@@ -1,4 +1,5 @@
 export interface FormData {
+  logo: string;
   companyInfo: {
     name: string;
     website: string;
