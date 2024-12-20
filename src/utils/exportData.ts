@@ -12,6 +12,7 @@ export const generateReport = (data: FormData): string => {
     `Generated: ${new Date().toLocaleString()}`,
     '\n',
     'COMPANY INFORMATION',
+    `Logo: ${data.logo ? 'Uploaded' : 'Not uploaded'}`,
     `Company Name: ${data.companyInfo.name || 'Not specified'}`,
     `Website: ${data.companyInfo.website || 'Not specified'}`,
     `Business Age: ${data.companyInfo.businessAge} years`,
